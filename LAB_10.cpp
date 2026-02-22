@@ -86,7 +86,7 @@ void Task1(vector<vector<int>>& Matrix) {
 
     Matrix.push_back(columnSums);
 
-    DrawTable(Matrix.size()+1, Matrix[0].size()+1, Matrix);
+    DrawTable(Matrix.size(), Matrix[0].size(), Matrix);
 }
 
 void Task2(vector<vector<int>>& Matrix) {
@@ -383,7 +383,10 @@ int main() {
         break;
     }
 
-    return 0;   
+    return 0;
+
+    int l;
+    cin >> l;
 }
 
 
